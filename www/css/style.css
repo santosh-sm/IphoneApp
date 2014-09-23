@@ -1,0 +1,170 @@
+*{
+margin:0px;
+padding:0px;
+}
+
+.hand
+{
+cursor:pointer;
+}
+
+body{
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.layout-width{
+width:1024px;
+margin:0 auto;
+}
+.left{
+float:left;
+}
+.right{
+float:right;
+}
+.clear{
+clear:both;
+}
+
+a{
+color:black;
+text-decoration:none;
+}
+li{
+list-style-type:none;
+}
+
+.width{width:100%;}
+
+
+.main_warpper{
+min-height:100%;
+background:#FEE9CC;
+}
+
+/*heading*/
+
+.header{
+height:90px;
+background:url('../images/header-bg.png') repeat-x;
+padding-top:30px;
+position:relative;
+}
+
+.logo {
+display: block;
+width: 200px;
+margin: auto;
+}
+
+.banner{
+margin-top:-30px;
+background:url('../images/banner-bg-1.jpg');
+height:250px;
+}
+
+.contant{
+background:url('../images/Bottom.png') repeat-x ;
+margin-top:-60px;
+padding-top:60px;
+}
+
+.contant_inner{
+background:#FEE9CC;
+padding-bottom:10px;
+}
+
+.login_details, .signin_details{
+width:85%;
+margin:0 auto;
+}
+
+.login_details a, .signin_details a{
+display:block;
+height:50px;
+}
+.login_details .facebook, .login_details .gmail{
+font-size:16px;
+margin-top:10px;
+line-height:3.5;
+text-align:center;
+color:white;
+}
+
+.facebook{background:#2E4BA9;}
+
+.gmail{background:#DE2300;}
+
+.login_details a .icon{
+display:block;
+width:35px;
+height:35px;
+border-radius:50%;
+float: left;
+
+margin: 8px 15px;
+}
+
+.facebook_icon{background:url('../images/f1.png');
+background-position:center;
+background-size:100%;
+}
+
+.gmail_icon{background:url('../images/G1.png');
+background-position:center;
+background-size:100%;
+}
+
+.login_details .separate{
+display:block;
+height:25px;
+background:url('../images/seprater.png') repeat-x;
+font-size:16px;
+margin-top:5px;
+
+text-align:center;
+overflow:hidden;
+color:black;
+}
+
+.login_details .separate span{ background:#FEE9CC;}
+
+
+.register, .signin{
+width:45%;
+background:#E6E6E6;
+text-align:center;
+font-size:16px;
+line-height:3.5;
+}
+
+.signin_details a input{
+width:63%;
+float:right;
+line-height: 2.5;
+}
+
+.signin_details .user span, .signin_details .pass span{
+
+	width:15%;
+	line-height: 2.5;
+	font-size:18px;
+}
+
+.signin_details .signin{
+width:35%;
+background:#E6E6E6;
+text-align:center;
+font-size:16px;
+line-height:3.5;
+}
+
+.rem{
+width:55%;
+background:#FF6000;
+color:white;
+font-weight:bold;
+text-align:center;
+font-size:16px;
+line-height:3.5;
+}
